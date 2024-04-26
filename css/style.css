@@ -1,0 +1,121 @@
+@import url("lib.css");
+
+body > main > section {
+    margin-bottom: 0;
+}
+
+body > hr {
+    margin-block: 0;
+}
+
+header hgroup {
+    text-align: center;
+}
+
+header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    header hgroup {
+        text-align: start;
+    }
+
+    header nav {
+        justify-content: space-between;
+    }
+}
+
+header nav li {
+    padding-block: 0;
+}
+
+header nav li:has(> a) {
+    padding-block: calc(var(--pico-nav-element-spacing-vertical) / 2);
+    align-self: start;
+}
+
+#modlist summary {
+    font-weight: bold;
+}
+
+#modlist fieldset {
+    padding-inline: var(--pico-block-spacing-horizontal);
+}
+
+.mod {
+    margin-bottom: calc(var(--pico-spacing) * .375);
+}
+
+.mod label {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.mod i {
+    top: 0.1em;
+    margin-inline: 0.3em;
+}
+
+.mod mark {
+    font-size: 0.8em;
+    cursor: default;
+}
+
+.mod:has(label > [data-parent]) {
+    margin-left: 1.7em;
+}
+
+.mod .desc {
+    display: block;
+    text-indent: 1.75rem;
+    color: var(--pico-secondary);
+}
+
+/* Animations, WIP */
+/* @media (hover: hover) and (pointer: fine) {
+    .mod .desc {
+        line-height: 0;
+        transition: line-height var(--pico-transition), opacity var(--pico-transition);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .mod:has(.desc) label {
+        text-decoration: dotted underline;
+    }
+
+    .mod:hover .desc {
+        opacity: 1;
+        line-height: var(--pico-line-height);
+    }
+} */
+
+#output {
+    max-height: 600px;
+}
+
+#output textarea {
+    min-height: 200px;
+    text-wrap: nowrap;
+}
+
+#output select:has(>option[value="3"]:checked) + .code {
+    font-family: var(--pico-font-family-monospace);
+}
+
+@media (min-width: 768px) {
+    body {
+        max-height: 100vh;
+    }
+
+    #modlist {
+        padding-inline-end: var(--pico-spacing);
+    }
+}
+
+.footnote {
+    font-weight: 300;
+    color: var(--pico-secondary);
+}

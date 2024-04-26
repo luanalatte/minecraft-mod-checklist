@@ -1,0 +1,547 @@
+{
+  "Performance": [
+    {
+      "name": "Cull Less Leaves Reforged",
+      "slug": "cull-less-leaves-reforged",
+      "url": "https://modrinth.com/mod/cull-less-leaves-reforged"
+    },
+    {
+      "name": "DespawnTweaker",
+      "slug": "despawntweaker",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/despawntweaker"
+    },
+    {
+      "name": "Embeddium",
+      "slug": "embeddium",
+      "url": "https://modrinth.com/mod/embeddium"
+    },
+    {
+      "name": "Embeddium++",
+      "slug": "embeddiumplus",
+      "url": "https://modrinth.com/mod/embeddiumplus",
+      "parent": "embeddium"
+    },
+    {
+      "name": "Ferrite Core",
+      "slug": "ferrite-core",
+      "url": "https://modrinth.com/mod/ferrite-core"
+    },
+    {
+      "name": "ImmediatelyFast",
+      "slug": "immediatelyfast",
+      "url": "https://modrinth.com/mod/immediatelyfast"
+    },
+    {
+      "name": "ModernFix",
+      "slug": "modernfix",
+      "url": "https://modrinth.com/mod/modernfix"
+    },
+    {
+      "name": "Not Enough Recipe Book",
+      "slug": "nerb",
+      "url": "https://modrinth.com/mod/nerb"
+    },
+    {
+      "name": "Radium",
+      "slug": "radium",
+      "url": "https://modrinth.com/mod/radium"
+    },
+    {
+      "name": "Recipe Essentials",
+      "slug": "recipe-essentials-forge-fabric",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/recipe-essentials-forge-fabric"
+    }
+  ],
+  "Tech": [
+    {
+      "name": "Ad Astra",
+      "slug": "ad-astra",
+      "url": "https://modrinth.com/mod/ad-astra"
+    },
+    {
+      "name": "CC: Tweaked",
+      "slug": "cc-tweaked",
+      "url": "https://modrinth.com/mod/cc-tweaked"
+    },
+    {
+      "name": "CC:C Bridge",
+      "slug": "cccbridge",
+      "parent": "cc-tweaked",
+      "url": "https://modrinth.com/mod/cccbridge"
+    },
+    {
+      "name": "Create",
+      "slug": "create",
+      "url": "https://modrinth.com/mod/create"
+    },
+    {
+      "name": "Create: Bells & Whistles",
+      "slug": "bellsandwhistles",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/bellsandwhistles"
+    },
+    {
+      "name": "Create: Connected",
+      "slug": "create-connected",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-connected"
+    },
+    {
+      "name": "Create Crafts & Additions",
+      "slug": "createaddition",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/createaddition"
+    },
+    {
+      "name": "Create Deco",
+      "slug": "create-deco",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-deco"
+    },
+    {
+      "name": "Create Diesel Generators",
+      "slug": "create-diesel-generators",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-diesel-generators"
+    },
+    {
+      "name": "Create: New Age",
+      "slug": "create-new-age",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-new-age"
+    },
+    {
+      "name": "Create: Ore Excavation",
+      "slug": "create-ore-excavation",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-ore-excavation"
+    },
+    {
+      "name": "Create: Power Loader",
+      "slug": "create-power-loader",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-power-loader"
+    },
+    {
+      "name": "Create Slice & Dice",
+      "slug": "slice-and-dice",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/slice-and-dice"
+    },
+    {
+      "name": "Create: Steam n Rails",
+      "slug": "create-steam-n-rails",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-steam-n-rails"
+    },
+    {
+      "name": "Create Stuff & Additions",
+      "slug": "create-stuff-additions",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-stuff-additions"
+    },
+    {
+      "name": "Create: Vintage Improvements",
+      "slug": "create-vintage-improvements",
+      "parent": "create",
+      "url": "https://modrinth.com/mod/create-vintage-improvements",
+      "desc": "New machines and compat."
+    }
+  ],
+  "Building": [
+    {
+      "name": "Amendments",
+      "slug": "amendments",
+      "url": "https://modrinth.com/mod/amendments"
+    },
+    {
+      "name": "Supplementaries",
+      "slug": "supplementaries",
+      "parent": "amendments",
+      "url": "https://modrinth.com/mod/supplementaries"
+    },
+    {
+      "name": "Building Gadgets 2",
+      "slug": "building-gadgets-2",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/building-gadgets"
+    },
+    {
+      "name": "Chipped",
+      "slug": "chipped",
+      "url": "https://modrinth.com/mod/chipped"
+    },
+    {
+      "name": "FramedBlocks",
+      "slug": "framedblocks",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/framedblocks"
+    }
+  ],
+  "Player Visuals": [
+    {
+      "name": "3D Skin Layers",
+      "slug": "3dskinlayers",
+      "url": "https://modrinth.com/mod/3dskinlayers"
+    },
+    {
+      "name": "Cosmetic Armor Reworked",
+      "slug": "cosmetic-armor-reworked",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked"
+    },
+    {
+      "name": "Cosmetica",
+      "slug": "cosmetica",
+      "url": "https://modrinth.com/mod/cosmetica",
+      "loader": "fabric"
+    }
+  ],
+  "Visual": [
+    {
+      "name": "Better Clouds",
+      "slug": "better-clouds",
+      "url": "https://modrinth.com/mod/better-clouds",
+      "loader": "fabric"
+    },
+    {
+      "name": "Better Third Person",
+      "slug": "better-third-person",
+      "url": "https://modrinth.com/mod/better-third-person"
+    },
+    {
+      "name": "Cave Dust",
+      "slug": "cave-dust",
+      "url": "https://modrinth.com/mod/cave-dust"
+    },
+    {
+      "name": "Explosive Enhancement",
+      "slug": "explosive-enhancement",
+      "url": "https://modrinth.com/mod/explosive-enhancement",
+      "loader": "fabric"
+    },
+    {
+      "name": "Falling Leaves",
+      "slug": "fallingleaves",
+      "url": "https://modrinth.com/mod/fallingleaves",
+      "loader": "fabric"
+    },
+    {
+      "name": "Let Sleeping Dogs Lie",
+      "slug": "let-sleeping-dogs-lie",
+      "url": "https://modrinth.com/mod/let-sleeping-dogs-lie"
+    },
+    {
+      "name": "Make Bubbles Pop",
+      "slug": "make_bubbles_pop",
+      "url": "https://modrinth.com/mod/make_bubbles_pop"
+    },
+    {
+      "name": "Not Enough Animations",
+      "slug": "not-enough-animations",
+      "url": "https://modrinth.com/mod/not-enough-animations"
+    }
+  ],
+  "Sounds & Music": [
+    {
+      "name": "AmbientSounds",
+      "slug": "ambientsounds",
+      "url": "https://modrinth.com/mod/ambientsounds"
+    },
+    {
+      "name": "Better Block Sounds",
+      "slug": "bbs",
+      "url": "https://modrinth.com/mod/bbs"
+    },
+    {
+      "name": "Infinite Music",
+      "slug": "infinite-music",
+      "url": "https://modrinth.com/mod/infinite-music",
+      "loader": "fabric"
+    },
+    {
+      "name": "Now Playing",
+      "slug": "now-playing",
+      "url": "https://modrinth.com/mod/now-playing",
+      "loader": "fabric"
+    }
+  ],
+  "Vanilla+": [
+    {
+      "name": "Immersive Aircraft",
+      "slug": "immersive-aircraft",
+      "url": "https://modrinth.com/mod/immersive-aircraft"
+    },
+    {
+      "name": "Farmer's Delight",
+      "slug": "farmers-delight",
+      "url": "https://modrinth.com/mod/farmers-delight"
+    },
+    {
+      "name": "Liberty's Villagers",
+      "slug": "libertys-villagers",
+      "url": "https://modrinth.com/mod/libertyvillagers",
+      "desc": "Quality of Life improvements for Villagers."
+    },
+    {
+      "name": "Librarian's Balance",
+      "slug": "librarians-balance",
+      "url": "https://modrinth.com/datapack/librarians-balance",
+      "desc": "Rebalances Librarian villagers. Including better ways to obtain mending."
+    },
+    {
+      "name": "Rebalanced Loot",
+      "slug": "rebalanced-loot",
+      "url": "https://modrinth.com/datapack/rebalanced-loot",
+      "desc": "Different chest loot that actually makes sense and isn't overpowered!"
+    },
+    {
+      "name": "Refined Advancements",
+      "slug": "refined-advancements",
+      "url": "https://modrinth.com/datapack/refined-advancements",
+      "desc": "Clearer progression advancements and new side-goals to aim for."
+    },
+    {
+      "name": "Spyglass Astronomy",
+      "slug": "spyglass-astronomy",
+      "url": "https://modrinth.com/mod/spyglass-astronomy",
+      "loader": "fabric"
+    }
+  ],
+  "World & Environment": [
+    {
+      "name": "Alex's Mobs",
+      "slug": "alexs-mobs",
+      "url": "https://modrinth.com/mod/alexs-mobs"
+    },
+    {
+      "name": "Backported Wolves",
+      "slug": "backported-wolves",
+      "url": "https://modrinth.com/mod/backported-wolves"
+    },
+    {
+      "name": "Better Archeology",
+      "slug": "better-archeology",
+      "url": "https://modrinth.com/mod/better-archeology"
+    },
+    {
+      "name": "Geophilic Reforged",
+      "slug": "geophilic-reforged",
+      "url": "https://modrinth.com/datapack/geophilic-reforged"
+    },
+    {
+      "name": "Naturalist",
+      "slug": "naturalist",
+      "url": "https://modrinth.com/mod/naturalist"
+    },
+    {
+      "name": "Serene Seasons",
+      "slug": "serene-seasons",
+      "url": "https://modrinth.com/mod/serene-seasons"
+    },
+    {
+      "name": "Tectonic",
+      "slug": "tectonic",
+      "url": "https://modrinth.com/datapack/tectonic"
+    }
+  ],
+  "GUI": [
+    {
+      "name": "Controlling",
+      "slug": "controlling",
+      "url": "https://modrinth.com/mod/controlling"
+    },
+    {
+      "name": "Jade",
+      "slug": "jade",
+      "url": "https://modrinth.com/mod/jade"
+    },
+    {
+      "name": "Just Enough Items",
+      "slug": "jei",
+      "url": "https://modrinth.com/mod/jei"
+    },
+    {
+      "name": "Just Enough Resources",
+      "slug": "just-enough-resources-jer",
+      "url": "https://modrinth.com/mod/just-enough-resources-jer",
+      "parent": "jei"
+    },
+    {
+      "name": "Mouse Tweaks",
+      "slug": "mouse-tweaks",
+      "url": "https://modrinth.com/mod/mouse-tweaks"
+    },
+    {
+      "name": "Xaero's Minimap",
+      "slug": "xaeros-minimap",
+      "url": "https://modrinth.com/mod/xaeros-minimap"
+    },
+    {
+      "name": "Xaero's World Map",
+      "slug": "xaeros-world-map",
+      "url": "https://modrinth.com/mod/xaeros-world-map"
+    }
+  ],
+  "Quality of Life": [
+    {
+      "name": "AppleSkin",
+      "slug": "appleskin",
+      "url": "https://modrinth.com/mod/appleskin"
+    },
+    {
+      "name": "Better Advancements",
+      "slug": "better-advancements",
+      "url": "https://modrinth.com/mod/better-advancements"
+    },
+    {
+      "name": "ClickThrough 2.0",
+      "slug": "clickthrough2.0",
+      "url": "https://modrinth.com/mod/clickthrough2.0",
+      "loader": "fabric",
+      "desc": "Click through signs and item frames to chests"
+    },
+    {
+      "name": "Companion",
+      "slug": "companion",
+      "url": "https://modrinth.com/mod/companion",
+      "desc": "Helps you keep your pets alive and with you."
+    },
+    {
+      "name": "Cut Through",
+      "slug": "cut-through",
+      "url": "https://modrinth.com/mod/cut-through"
+    },
+    {
+      "name": "Easy Elytra Takeoff",
+      "slug": "easy-elytra-takeoff",
+      "url": "https://modrinth.com/mod/easy-elytra-takeoff"
+    },
+    {
+      "name": "Elytra Slot",
+      "slug": "elytra-slot",
+      "url": "https://modrinth.com/mod/elytra-slot"
+    },
+    {
+      "name": "Harvest with ease",
+      "slug": "harvest-with-ease",
+      "url": "https://modrinth.com/mod/harvest-with-ease"
+    },
+    {
+      "name": "Improved Sign Editing",
+      "slug": "improved-sign-editing",
+      "url": "https://modrinth.com/mod/improved-sign-editing"
+    },
+    {
+      "name": "Leaves Be Gone",
+      "slug": "leaves-be-gone",
+      "url": "https://modrinth.com/mod/leaves-be-gone"
+    },
+    {
+      "name": "Light Overlay",
+      "slug": "light-overlay",
+      "url": "https://modrinth.com/mod/light-overlay"
+    },
+    {
+      "name": "Nature's Compass",
+      "slug": "natures-compass",
+      "url": "https://modrinth.com/mod/natures-compass"
+    },
+    {
+      "name": "No Crop Trampling",
+      "slug": "no-crop-trampling",
+      "url": "https://modrinth.com/mod/no-crop-trampling"
+    },
+    {
+      "name": "Quick Right-Click",
+      "slug": "quick-right-click",
+      "url": "https://modrinth.com/mod/quick-right-click"
+    },
+    {
+      "name": "Polymorph",
+      "slug": "polymorph",
+      "url": "https://modrinth.com/mod/polymorph"
+    },
+    {
+      "name": "Separated Leaves",
+      "slug": "separated-leaves",
+      "url": "https://modrinth.com/mod/separated-leaves"
+    },
+    {
+      "name": "Inventory Sorter",
+      "slug": "inventory-sorter",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter"
+    },
+    {
+      "name": "Spyglass of Curios",
+      "slug": "spyglass-of-curios",
+      "url": "https://modrinth.com/mod/spyglass-of-curios"
+    },
+    {
+      "name": "Trade Cycling",
+      "slug": "trade-cycling",
+      "url": "https://modrinth.com/mod/trade-cycling"
+    },
+    {
+      "name": "Yeetus Experimentus",
+      "slug": "yeetus-experimentus",
+      "url": "https://modrinth.com/mod/yeetus-experimentus"
+    }
+  ],
+  "Storage": [
+    {
+      "name": "Refined Storage",
+      "slug": "refined-storage",
+      "url": "https://modrinth.com/mod/refined-storage"
+    },
+    {
+      "name": "Refined Storage Addons",
+      "slug": "refined-storage-addons",
+      "parent": "refined-storage",
+      "url": "https://modrinth.com/mod/refined-storage-addons"
+    },
+    {
+      "name": "Refined Polymorphism",
+      "slug": "refined-polymorphism",
+      "parent": "refined-storage",
+      "url": "https://modrinth.com/mod/refined-polymorphism"
+    },
+    {
+      "name": "Sophisticated Backpacks",
+      "slug": "sophisticated-backpacks",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks"
+    },
+    {
+      "name": "Storage Drawers",
+      "slug": "storagedrawers",
+      "url": "https://modrinth.com/mod/storagedrawers"
+    }
+  ],
+  "Misc": [
+    {
+      "name": "Advanced Backups",
+      "slug": "advanced-backups",
+      "url": "https://modrinth.com/mod/advanced-backups"
+    },
+    {
+      "name": "KubeJS",
+      "slug": "kubejs",
+      "url": "https://modrinth.com/mod/kubejs"
+    },
+    {
+      "name": "KubeJS Create",
+      "slug": "kubejs-create",
+      "parent": "kubejs",
+      "url": "https://modrinth.com/mod/kubejs-create"
+    },
+    {
+      "name": "No Chat Reports",
+      "slug": "no-chat-reports",
+      "url": "https://modrinth.com/mod/no-chat-reports",
+      "checked": true
+    },
+    {
+      "name": "Sinytra Connector",
+      "slug": "connector",
+      "url": "https://modrinth.com/mod/connector",
+      "desc": "Fabric Compatibility Layer for Minecraft Forge."
+    }
+  ]
+}
