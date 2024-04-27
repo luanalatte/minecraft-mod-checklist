@@ -29,6 +29,7 @@ header nav {
 
 header nav li {
     padding-block: 0;
+    margin-inline: 0.25em;
 }
 
 header nav li:has(> a) {
