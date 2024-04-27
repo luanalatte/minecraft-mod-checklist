@@ -203,10 +203,9 @@ function generate() {
                     if (navigator.userAgent.toLowerCase().includes('firefox')) {
                         details.addEventListener('toggle', () => {
                             if (details.open) {
-                                document.querySelectorAll('details').forEach(d2 => {
-                                    if (d2 != details && d2.name == details.name) {
+                                document.querySelectorAll('details[name="' + details.getAttribute('name') + '"]').forEach(d2 => {
+                                    if (d2 != details)
                                         d2.open = false;
-                                    }
                                 });
                             }
                         });
