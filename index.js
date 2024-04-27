@@ -198,7 +198,20 @@ function generate() {
                         fieldset.appendChild(div);
                     });
                     details.appendChild(fieldset);
-                    
+
+                    // Firefox doesn't support details[name] as of yet, so we're adding this dirty fix until that happens.
+                    if (navigator.userAgent.toLowerCase().includes('firefox')) {
+                        details.addEventListener('toggle', () => {
+                            if (details.open) {
+                                document.querySelectorAll('details').forEach(d2 => {
+                                    if (d2 != details && d2.name == details.name) {
+                                        d2.open = false;
+                                    }
+                                });
+                            }
+                        });
+                    }
+
                     modlist.insertBefore(details, footer);
                 });
 
@@ -209,7 +222,9 @@ function generate() {
             })
             .catch(error => {
                 console.error('Error:', error);
-            });
+            }
+        );
+
     });
 
 })();
