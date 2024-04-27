@@ -192,6 +192,16 @@
       "slug": "cosmetica",
       "url": "https://modrinth.com/mod/cosmetica",
       "loader": "fabric"
+    },
+    {
+      "name": "Customizable Player Models",
+      "slug": "custom-player-models",
+      "url": "https://modrinth.com/plugin/custom-player-models"
+    },
+    {
+      "name": "Simple Hats",
+      "slug": "simple-hats",
+      "url": "https://modrinth.com/mod/simple-hats"
     }
   ],
   "Visual": [
@@ -519,6 +529,22 @@
       "name": "Advanced Backups",
       "slug": "advanced-backups",
       "url": "https://modrinth.com/mod/advanced-backups"
+    },
+    {
+      "name": "Blahaj Restitched 🏳️‍⚧️",
+      "slug": "blahaj-restitched",
+      "url": "https://modrinth.com/mod/blahaj-restitched",
+      "desc": "A Minecraft mod that adds toys and plushies, most notably the IKEA BLÅHAJ!"
+    },
+    {
+      "name": "Chat heads",
+      "slug": "chat-heads",
+      "url": "https://modrinth.com/mod/chat-heads"
+    },
+    {
+      "name": "FTB Ultimine",
+      "slug": "ftb-ultimine-forge",
+      "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge"
     },
     {
       "name": "KubeJS",
