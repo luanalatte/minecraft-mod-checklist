@@ -58,6 +58,13 @@ header nav li:has(> a) {
     margin-inline: 0.3em;
 }
 
+.mod svg {
+    position: relative;
+    bottom: 0.1em;
+    width: 1em;
+    margin-inline: 0.3em;
+}
+
 .mod mark {
     font-size: 0.8em;
     cursor: default;
