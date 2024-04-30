@@ -41,11 +41,8 @@ header nav li:has(> a) {
     font-weight: bold;
 }
 
-#modlist fieldset {
-    padding-inline: var(--pico-block-spacing-horizontal);
-}
-
 .mod {
+    padding-inline: var(--pico-block-spacing-horizontal);
     margin-bottom: calc(var(--pico-spacing) * .375);
 }
 

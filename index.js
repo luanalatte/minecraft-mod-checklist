@@ -224,12 +224,10 @@ function build_modlist(json_data) {
             details.appendChild(summary);
         }
 
-        var fieldset = document.createElement('fieldset');
         mods.forEach(mod => {
             if ((m = build_mod(mod)))
-            fieldset.appendChild(m);
+            details.appendChild(m);
         });
-        details.appendChild(fieldset);
 
         modlist.insertBefore(details, footer);
     });
