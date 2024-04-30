@@ -591,6 +591,12 @@
     "category": "Storage"
   },
   {
+    "name": "Sophisticated Storage",
+    "slug": "sophisticated-storage",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage",
+    "category": "Storage"
+  },
+  {
     "name": "Storage Drawers",
     "slug": "storagedrawers",
     "url": "https://modrinth.com/mod/storagedrawers",
