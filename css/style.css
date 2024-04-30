@@ -39,6 +39,7 @@ header nav li:has(> a) {
 
 #modlist summary {
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .mod {

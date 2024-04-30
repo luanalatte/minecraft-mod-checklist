@@ -212,24 +212,32 @@ function build_modlist(json_data) {
 
     var footer = modlist.querySelector('#modlist > footer');
 
-    Object.entries(json_data).forEach(([category, mods]) => {
-        var details = document.createElement('details');
+    var categories = {}
+    function get_category(name) {
+        if (!name)
+            return get_category('Misc');
+
+        let key = name.toLowerCase();
+        if (key in categories)
+            return categories[key]
+
+        let details = document.createElement('details');
         details.setAttribute('name', 'modlist');
 
-        {
-            let summary = document.createElement('summary');
-            summary.role = 'button';
-            summary.className = 'secondary outline';
-            summary.textContent = category || 'Category';
-            details.appendChild(summary);
-        }
-
-        mods.forEach(mod => {
-            if ((m = build_mod(mod)))
-            details.appendChild(m);
-        });
+        let summary = document.createElement('summary');
+        summary.role = 'button';
+        summary.className = 'secondary outline';
+        summary.textContent = name;
+        details.appendChild(summary);
 
         modlist.insertBefore(details, footer);
+        categories[key] = details;
+        return details
+    }
+
+    json_data.forEach(mod => {
+        if ((m = build_mod(mod)))
+            get_category(mod['category']).appendChild(m);
     });
 
     modlist.querySelector('#modlist details:first-of-type').toggleAttribute('open');
