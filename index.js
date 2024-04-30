@@ -1,5 +1,3 @@
-const IS_FIREFOX = navigator.userAgent.toLowerCase().includes('firefox');
-
 function get_slug(url) {
     if (url)
         return url.split('/').pop().split('?')[0];
@@ -191,7 +189,7 @@ function build_mod(mod) {
 
 // Firefox doesn't support details[name] as of yet, so we're adding this dirty fix until that happens.
 function details_firefox_fix() {
-    if (!IS_FIREFOX)
+    if (!navigator.userAgent.toLowerCase().includes('firefox'))
         return
 
     var details = document.querySelectorAll('details');
@@ -234,8 +232,9 @@ function build_modlist(json_data) {
         details.appendChild(fieldset);
 
         modlist.insertBefore(details, footer);
-        modlist.querySelector('#modlist details:first-of-type').toggleAttribute('open');
     });
+
+    modlist.querySelector('#modlist details:first-of-type').toggleAttribute('open');
 }
 
 (() => {
